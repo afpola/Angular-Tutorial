@@ -1,5 +1,21 @@
 .myDiv {
-    border: 5px outset red;
-    background-color: lightblue;
+    border: 5px outset #cfd8dc;
+    background-color: #eee;
     text-align: center;
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 14.5em;
+    padding-bottom: 1em;
+    /* text-decoration: underline; (vill att bara översta raden ska va understruken*/
+}
+
+/* Detta gjorde ingenting:*/
+.entry-header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.h2 {
+    text-decoration: underline;
 }

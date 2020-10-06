@@ -10,12 +10,10 @@
     /* text-decoration: underline; (vill att bara översta raden ska va understruken*/
 }
 
-/* Detta gjorde ingenting:*/
-.entry-header {
-    text-align: center;
-    text-decoration: underline;
-}
+/* Detta nedan gjorde ingenting. Ska man göra en separat div för rubrik
+å sen styla så att de sitter ihop?*/
 
-.h2 {
+.myDiv .h2 {
+    text-decoration-color: black;
     text-decoration: underline;
 }

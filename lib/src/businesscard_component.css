@@ -7,11 +7,11 @@
     padding: 0;
     width: 14.5em;
     padding-bottom: 1em;
-    /* text-decoration: underline; (vill att bara översta raden ska va understruken*/
 }
 
-/* Detta nedan gjorde ingenting. Ska man göra en separat div för rubrik
-å sen styla så att de sitter ihop?*/
+.myDiv #name {
+    text-decoration: underline;
+}
 
 .myDiv .h2 {
     text-decoration-color: black;

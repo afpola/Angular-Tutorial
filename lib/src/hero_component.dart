@@ -4,18 +4,10 @@ import 'hero.dart';
 
 @Component(
   selector: 'my-hero',
-  template: '''
-    <div *ngIf="hero != null">
-      <h2>{{hero.name}}</h2>
-      <div><label>id: </label>{{hero.id}}</div>
-      <div>
-        <label>name: </label>
-        <input [(ngModel)]="hero.name" placeholder="name">
-      </div>
-    </div>''',
+  templateUrl: 'hero_component.html',
   directives: [coreDirectives, formDirectives],
 )
-class HeroComponent {
+class HeroComponent1 {
   @Input()
   Hero hero;
 }

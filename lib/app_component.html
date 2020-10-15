@@ -1,18 +1,7 @@
 <h1>{{title}}</h1>
-<!--h2>Heroes</h2-->
-<ul class="heroes">
-  <li *ngFor="let hero of heroes"
-      [class.selected]="hero === selected"
-      (click)="onSelect(hero)">
-    <span class="badge">{{hero.id}}</span> {{hero.name}}
-    
-    
-    
-    <my-business-card [model]="hero"></my-business-card>
-  </li>
-</ul>
+
+<my-herolist #herolist></my-herolist>
 
 
-
-<my-hero [hero]="selected"></my-hero>
+<my-business-card *ngIf="herolist.selected != null" [model]="herolist.selected"></my-business-card>
 

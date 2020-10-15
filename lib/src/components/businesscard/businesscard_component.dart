@@ -1,6 +1,6 @@
 import 'package:angular/angular.dart';
 
-import 'hero.dart';
+import '../../hero.dart';
 
 @Component(
     selector: 'my-business-card',
